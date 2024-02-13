@@ -1,0 +1,81 @@
+{
+
+    "Header.Item1" : "About me",
+    "Header.Item2" : "Experience",
+    "Header.Item3" : "Projects",
+    "Header.Item4" : "Contact",
+    "Header.cvBtn" : "Resume",
+    "Header.cvName": "CV_Jose_Hernandez_Ingles.pdf",
+
+    "Banner.Pretitle": "Hello! My name is",
+    "Banner.Description": "I have <span class='underline'>1 year of experience</span> developing systems, interfaces, and technological solutions to make the web a better place. I am dedicated to writing and refactoring clean, reusable, and scalable code in <span class='underline'>Angular</span> applying good practices and development standards.",
+    "Banner.ActionBtn": "Connect to me",
+
+    "AboutMe.Title": "About me",
+    "AboutMe.Paragraphs": [
+        "In my <span class='underline'>1 year as a developer</span>, I seek to train every day.  I'm passionate about crafting efficient web applications and thrive on the challenges of Angular development. I value continuous learning, effective communication, and teamwork. ",
+        "My skills also include implementing system improvements, optimizing sites, standardizing patterns, and suggesting and executing ideas that add value to the project I'm working on.",
+        "Some of the technologies that I have trained and worked on include:"
+    ],
+
+
+    "Experience.Title": "Experience",
+    "Experience.Jobs": [
+
+        {
+            "Tab": "Vartulz",
+            "comnmpanyName":"Vartulz Technology Pvt Ltd.",
+            "Title": "Frontend developer",
+            "Date": "January 2023 - Current",
+            "Description": [
+              "Developed responsive single-page applications using Angular framework, ensuring optimal user experiences across various devices and screen sizes.",
+              "Implemented state management using tools like NgRx to maintain application state and enhance performance, resulting in smoother user interactions and reduced load times.",
+              "Integrated RESTful APIs seamlessly into Angular applications to retrieve and manipulate data from external sources, enhancing application functionality and providing real-time updates to users.",
+              "Implemented authentication and authorization mechanisms such as JWT (JSON Web Tokens) to secure API endpoints and protect sensitive data, ensuring robust security measures were in place to safeguard user information.",
+              "Leveraged Angular HttpClient module to perform HTTP requests and handle responses efficiently, optimizing network communication and improving overall performance of API interactions.",
+              "Effective communication with the design team, working with Figma."
+            ]
+        }
+    
+    ],
+
+    "FeatureProjects.Title": "My projects",
+    "FeatureProjects.Label": "Featured Project",
+    "FeatureProjects.Projects": [{
+            "Title": "Bureau of Civil Aviation Security",
+            "Description": "Created <span class='underline'>Auth Module</span>, which is responsible for creating and maintaining <span class='underline'>Staff, Airports, Entities, Zone and Assigning Modules </span> to their <span class='underline'>Staff </span>. Created 5 <span class='underline'>Security Program </span> in Security Modules, which were filled by the <span class='underline'>Entities and Airports </span>. Single Security Program contains one Form and one Checklist, after submitting Staff can approve and reject their form until it is finally submitted.",
+            
+            "imgs": [
+                "assets/images/Bcas/login.png",
+                "assets/images/Bcas/authdash.png",
+                "assets/images/Bcas/profile.png",
+                "assets/images/Bcas/securitydash.png",
+                "assets/images/Bcas/seclist.png",
+                "assets/images/Bcas/traindash.png",
+                "assets/images/Bcas/traindash.png",
+                "assets/images/Bcas/authlist.png"
+            ],
+            "Technologies": [ "Angular", "SASS", "Bootstrap", "RxJS"]
+        }
+       
+    ],
+
+
+
+    "OtherProjects.Title": "More projects",
+    "OtherProjects.Projects": [{
+            "Title": "Payment Gateway UPI/Netbanking",
+            "Description": "A seamless payment gateway integration enabling UPI and net banking transactions for enhanced user convenience and security.",
+            "ghLink": "https://github.com/GauravOG/Angular_Structure",
+            "demoLink": "https://google.com",
+            "Technologies": ["Angular", "RxJs", "API", "Bootstrap"]
+        }
+        
+    ],
+    "Contact.Pretitle": "What’s Next",
+    "Contact.Title": "Connect To Me!",
+    "Contact.Content": "I will be happy to receive your contact if you want to talk about new opportunities. Write me, and I will reply as soon as I see your message. Simple one-page design that features a profile letter with basic information about a person.",
+    "Contact.Btn": "Say Hello"
+
+
+}
